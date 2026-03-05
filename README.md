@@ -1,6 +1,6 @@
 # 💬 Chat App
 
-This chat application is made for my university coursework.
+This chat application is created for my university coursework.
 
 A full-stack real-time chat and threaded forum application with End-to-End Encryption, built with Next.js, Node.js, PostgreSQL, and Socket.IO.
 
