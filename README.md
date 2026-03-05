@@ -2,7 +2,7 @@
 
 This chat application is made for my university coursework.
 
-A full-stack real-time chat and threaded forum application with **End-to-End Encryption**, built with Next.js, Node.js, PostgreSQL, and Socket.IO.
+A full-stack real-time chat and threaded forum application with End-to-End Encryption, built with Next.js, Node.js, PostgreSQL, and Socket.IO.
 
 ---
 
@@ -54,7 +54,7 @@ A full-stack real-time chat and threaded forum application with **End-to-End Enc
 
 ## 🔒 End-to-End Encryption
 
-Messages are encrypted **entirely in the browser** before being sent. The server only ever stores and transmits ciphertext — it cannot read message content.
+Messages are encrypted entirely in the browser before being sent. The server only ever stores and transmits ciphertext, it cannot read message content.
 
 ### How it works
 
