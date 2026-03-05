@@ -27,7 +27,7 @@ A full-stack real-time chat and threaded forum application with **End-to-End Enc
 | Next.js 16 | React framework (App Router) |
 | TypeScript | Type safety |
 | Tailwind CSS v4 | Styling |
-| shadcn/ui | UI component library |
+| shadcn | UI component library |
 | Socket.IO Client | Real-time communication |
 | Clerk (Next.js) | Authentication |
 | Web Crypto API | E2E encryption (built-in browser API) |
@@ -69,7 +69,7 @@ Alice                        Server                        Bob
   |<-- Bob's public key --------|                            |
   |                             |                            |
   | ECDH(Alice.priv, Bob.pub)   |                            |
-  |  → HKDF → AES-GCM-256 key  |                            |
+  |  → HKDF → AES-GCM-256 key   |                            |
   |                             |                            |
   |=== { iv, ciphertext } =====>|====== { iv, ciphertext } ==>|
   |     (encrypted body)        |      (server sees only     |
@@ -87,7 +87,7 @@ Alice                        Server                        Bob
 
 ### Prerequisites
 
-- [Docker](https://docs.docker.com/get-docker/) and Docker Compose
+- [Docker](https://www.docker.com/get-docker/) and Docker Compose
 - [Clerk](https://clerk.com) account (free tier works)
 - [Cloudinary](https://cloudinary.com) account (free tier works)
 
